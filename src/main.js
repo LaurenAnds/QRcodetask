@@ -48,7 +48,7 @@ async function createCode(inputArray){
     for(let element of inputArray){
         let chName = channelNames[i];
         await codeToFile(element, chName);
-        chName++;
+        i++;
         
     }
 }
